@@ -1,18 +1,18 @@
-
+/* Change quieries 1500 */
 
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 6.2vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
 
-    color: rgb(157, 178, 191);
+    color: rgb(165, 219, 255);
 }   
 
 h2 {
-    font-size: 2rem;
+    font-size: 3.5vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
 
-    color: rgb(124, 141, 151);
+    color: rgb(231, 246, 255);
 }   
 
 
@@ -31,7 +31,7 @@ nav {
         padding: 15px;
         padding-left: 50px;
 
-        font-size: 2rem;
+        font-size: 3.2vmin;
         font-family: "Open Sans", sans-serif;
 
         color: rgb(221, 230, 237);
@@ -48,60 +48,71 @@ body {
     background-color: rgb(39, 55, 77);
 
     section.main-grid {
+        width: 100vw;
+
         display: grid;
         grid-template-columns: 1fr;
+
+        * {
+            border: 5px solid black;
+        }
     }
 
-    div.row-one, div.row-two {
+    div.row-one, div.row-two, div.row-three, div.row-four {
+        max-width: 100%;
 
-        padding-bottom: 150px;
+        padding-bottom: 5vh;
         
         display: flex;
 
-        div.one-right {
+        div.one-left {
+            width: 70%;
+            height: auto;
+
+            img.one-left-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        div.one-right{
+            width: 30%;
+            height: auto;
+
             align-items: center;
 
             margin-top: auto;
             margin-bottom: auto;
 
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 8vmin;
+            padding-right: 8vmin;
+
         }
 
-        img.one-left-img {
-            max-width: 70vw;
-            max-height: auto;
+        div.three-right, div.four-left {
+            width: 35%;
+            img.four-left-img {
+                width: 100%;
+                height: auto;
 
-            width: 70vw;
-            height: auto;
+            }
+        }
 
+        div.three-left, div.four-right {
+            width: 65%;
         }
     }
 
-    div.row-two {
-        gap: 100px;
-
-        div.two-right {
-
-            padding-left: 50px;
-            padding-right: 50px;
-
-        }
-
-        img.two-right-img {
-            max-width: 30vw;
-            max-height: auto;
-
-            width: 30vw;
-            height: auto;
-
-        }
+    div.row-two, div.row-three, div.row-four {
+        gap: 6.5vmin;
+        padding-left: 5vmin;
+        padding-right: 5vmin;
     }
 
 }
 
 .text-1 {
-    font-size: 1.5rem;
+    font-size: 2.2vmin;
     font-family: "Open Sans", sans-serif;
     
     color: rgb(221, 230, 237);
@@ -120,4 +131,16 @@ body {
 
 .border {
     border: 5px solid black;
+}
+
+.material-symbols-outlined {
+    width: 7.5vmin;
+    height: 7.5vmin;
+
+    color: rgb(122, 166, 199);
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 100,
+    'GRAD' 1,
+    'opsz' 24
 }
