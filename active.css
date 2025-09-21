@@ -1,114 +1,8 @@
 /* Change quieries 1500 */
 
-
-h1 {
-    font-size: 6.2vmin;
-    font-family: Merriweather, Ubuntu, sans-serif;
-
-    color: rgb(165, 219, 255);
-}   
-
-h2 {
-    font-size: 3.5vmin;
-    font-family: Merriweather, Ubuntu, sans-serif;
-
-    color: rgb(231, 246, 255);
-}   
-
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-
-    width: 100vw;
-    height: auto;
-
-    background-color: rgb(82, 109, 130);
-
-    div.project-text {
-        padding: 15px;
-        padding-left: 50px;
-
-        font-size: 3.2vmin;
-        font-family: "Open Sans", sans-serif;
-
-        color: rgb(221, 230, 237);
-    }
-}
-
-body {
-    top: 0;
-    left: 0;
-    right: 0;
-
-    padding-top: 50px;
-
-    background-color: rgb(39, 55, 77);
-
-    section.main-grid {
-        width: 100vw;
-
-        display: grid;
-        grid-template-columns: 1fr;
-
-        * {
-            border: 5px solid black;
-        }
-    }
-
-    div.row-one, div.row-two, div.row-three, div.row-four {
-        max-width: 100%;
-
-        padding-bottom: 5vh;
-        
-        display: flex;
-
-        div.one-left {
-            width: 70%;
-            height: auto;
-
-            img.one-left-img {
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        div.one-right{
-            width: 30%;
-            height: auto;
-
-            align-items: center;
-
-            margin-top: auto;
-            margin-bottom: auto;
-
-            padding-left: 8vmin;
-            padding-right: 8vmin;
-
-        }
-
-        div.three-right, div.four-left {
-            width: 35%;
-            img.four-left-img {
-                width: 100%;
-                height: auto;
-
-            }
-        }
-
-        div.three-left, div.four-right {
-            width: 65%;
-        }
-    }
-
-    div.row-two, div.row-three, div.row-four {
-        gap: 6.5vmin;
-        padding-left: 5vmin;
-        padding-right: 5vmin;
-    }
-
+.google-icon-center {
+    display: inline-block;
+    text-align: center;
 }
 
 .text-1 {
@@ -143,4 +37,148 @@ body {
     'wght' 100,
     'GRAD' 1,
     'opsz' 24
+}
+
+
+
+h1 {
+    font-size: 6.2vmin;
+    font-family: Merriweather, Ubuntu, sans-serif;
+
+    color: rgb(165, 219, 255);
+}   
+
+h2 {
+    font-size: 3.5vmin;
+    font-family: Merriweather, Ubuntu, sans-serif;
+
+    color: rgb(231, 246, 255);
+}   
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+    background-color: rgb(82, 109, 130);
+
+    div.project-text {
+        padding: 15px;
+        padding-left: 50px;
+
+        font-size: 3.2vmin;
+        font-family: "Open Sans", sans-serif;
+
+        color: rgb(221, 230, 237);
+    }
+
+}
+
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+
+    background-color: rgb(39, 55, 77);
+
+    section.main-grid {
+        width: 100vw;
+        z-index: 0;
+
+        * {border: 5px solid black;}
+    }
+
+    div.row-one, div.row-two, div.row-three, div.row-four {
+        width: 100%;
+
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        
+        display: flex;
+
+        /* ROW 1 */
+
+        div.one-left {
+
+            width: 75%;
+            height: fit-content;
+
+            img.one-left-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        div.one-right{
+            width: 25%;
+            height: 100%;
+
+            padding-left: 5%;
+            padding-right: 5%;
+
+            margin-top: auto;
+            margin-bottom: auto;
+            
+        }
+
+        /* ROW 2 */
+
+        /* div.row-two {
+            margin-top: auto;
+            margin-bottom: auto;
+        } */
+
+        /* ROW 3 */
+
+        div.three-left {
+            width: 35%;
+            height: auto;
+
+            text-align: left;
+
+        }
+
+        div.three-right {
+            width: 30%;
+            height: auto;
+
+            img.three-right-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        /* ROW 4 */
+
+        div.four-left {
+            width: 30%;
+            height: auto;
+
+            img.four-left-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    
+        div.four-right {
+            width: 35%;
+            height: auto;
+
+            text-align: left;
+
+        }
+
+    }
+
+    div.row-three, div.row-four {
+        gap: 5%;
+    }
+
 }
