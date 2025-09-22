@@ -5,10 +5,8 @@
         left: 0;
         right: 0;
 
-        font-size: 1vw;
-
         width: 100%;
-        height: auto;
+        height: fit-content;
         z-index: 1;
 
         background-color: rgb(132, 163, 187);
@@ -73,10 +71,8 @@
         left: 0;
         right: 0;
 
-        font-size: 1vw;
-
         width: 100%;
-        height: auto;
+        height: fit-content;
         z-index: 1;
 
         background-color: rgb(132, 163, 187);
