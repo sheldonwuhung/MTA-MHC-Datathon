@@ -93,10 +93,11 @@ nav {
     z-index: 1;
 
     background-color: rgb(132, 163, 187);
+    border-bottom: 2px solid rgb(161, 197, 224);
 
     div.project-text {
         padding: .9%;
-        padding-left: 13.25%;
+        padding-left: 2%;
 
         font-size: 3.2vmin;
         font-family: "Open Sans", sans-serif;
@@ -110,7 +111,6 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 50px;
 
     background-color: rgb(61, 86, 121);
 
