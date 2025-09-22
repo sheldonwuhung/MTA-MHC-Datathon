@@ -40,17 +40,6 @@
     'opsz' 24
 }
 
-hr {
-    border: 0;
-    width: 65%;
-    height: 2px;
-
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-
-    background: rgb(173, 220, 255);
-}
-
 h1 {
     font-size: 6.2vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
@@ -65,6 +54,31 @@ h2 {
     color: rgb(231, 246, 255);
 }   
 
+h3 {
+    font-size: 7vmin;
+    font-family: Merriweather, Ubuntu, sans-serif;
+
+    color: rgb(231, 246, 255);
+
+    text-align: center;
+
+    padding-left: 20%;
+    padding-right: 20%;
+}   
+
+h4 {
+    font-size: 4vmin;
+    font-family: Merriweather, Ubuntu, sans-serif;
+
+    color: rgb(165, 219, 255);
+}   
+
+hr {
+    border: 2px solid rgb(173, 220, 255);;
+    width: 65%;
+
+    background: rgb(173, 220, 255);
+}
 
 nav {
     position: fixed;
@@ -102,16 +116,38 @@ body {
         width: 100vw;
         z-index: 0;
 
-        /* * {border: 5px solid black;} */
+        * {border: 5px solid black;}
     }
 
-    div.row-one, div.row-two, div.row-three, div.row-four {
+    hr.one {
+        width: 65%;
+        height: 1px;
+
+        border-radius: 15px;
+
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    hr.two {
+        width: 80%;
+        height: 1px;
+
+        border-radius: 15px;
+
+        margin-top: 1%;
+        margin-bottom: -1.5%;
+    }
+
+    div.row-one, div.row-two, div.row-three, div.row-four, div.row-six{
         width: 100%;
 
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         
         display: flex;
+        flex-direction: row;
+        align-items: flex-start;
 
         /* ROW 1 */
 
@@ -157,6 +193,8 @@ body {
 
             text-align: left;
 
+
+
         }
 
         div.three-right {
@@ -189,10 +227,35 @@ body {
 
         }
 
+        /* Row 6 */
+
+        div.six-left {
+            width: 35%;
+            height: auto;
+
+            text-align: left;
+        }
+
+        div.six-right {
+            width: 50%;
+            height: auto;
+
+            img.six-right-img {
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 
     div.row-three, div.row-four {
         gap: 5%;
     }
+
+    div.row-six {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    
 
 }
