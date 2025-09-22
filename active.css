@@ -7,7 +7,7 @@
 }
 
 .text-1 {
-    font-size: 2.2vmin;
+    font-size: 2.5vmin;
     font-family: "Open Sans", sans-serif;
     
     color: rgb(221, 230, 237);
@@ -41,20 +41,13 @@
 }
 
 h1 {
-    font-size: 6.2vmin;
+    font-size: 8.5vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
 
     color: rgb(165, 219, 255);
 }   
 
 h2 {
-    font-size: 3.5vmin;
-    font-family: Merriweather, Ubuntu, sans-serif;
-
-    color: rgb(231, 246, 255);
-}   
-
-h3 {
     font-size: 7vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
 
@@ -66,14 +59,21 @@ h3 {
 
     padding-left: 20%;
     padding-right: 20%;
-}   
+} 
 
-h4 {
-    font-size: 4vmin;
+h3 {
+    font-size: 5vmin;
     font-family: Merriweather, Ubuntu, sans-serif;
 
     color: rgb(165, 219, 255);
 }   
+
+h4 {
+    font-size: 3.5vmin;
+    font-family: Merriweather, Ubuntu, sans-serif;
+
+    color: rgb(231, 246, 255);
+}     
 
 hr {
     border: 2px solid rgb(173, 220, 255);;
@@ -122,13 +122,13 @@ body {
     }
 
     hr.one {
-        width: 65%;
+        width: 90%;
         height: 1px;
 
         border-radius: 15px;
 
         margin-top: 2.5%;
-        margin-bottom: 2.5%;
+        margin-bottom: -3%;
     }
 
     hr.two {
@@ -141,7 +141,17 @@ body {
         margin-bottom: -1.5%;
     }
 
-    div.row-one, div.row-two, div.row-three, div.row-four, div.row-six{
+    hr.three {
+        width: 80%;
+        height: 1px;
+
+        border-radius: 15px;
+
+        margin-top: 1%;
+        margin-bottom: 2.5%;
+    }
+
+    div.row-one, div.row-two, div.row-three, div.row-four, div.row-six, div.row-eight, div.row-ten, div.row-eleven {
         width: 100%;
 
         padding-top: 2.5%;
@@ -162,14 +172,14 @@ body {
             width: 75%;
             height: fit-content;
 
-            img.one-left-img {
+            img {
                 width: 100%;
                 height: auto;
             }
         }
 
         div.one-right{
-            width: 25%;
+            width: 30%;
             height: 100%;
 
             padding-left: 5%;
@@ -191,77 +201,63 @@ body {
             margin-bottom: auto;
         } */
 
-        /* ROW 3 */
+        /* ROWS 3 & 4 */
 
-        div.three-left {
+        div.three-left, div.four-right {
             width: 35%;
             height: auto;
 
             text-align: left;
-
-
-
         }
 
-        div.three-right {
+        div.three-right, div.four-left {
             width: 30%;
             height: auto;
 
-            img.three-right-img {
+            img {
                 width: 100%;
                 height: auto;
             }
         }
 
-        /* ROW 4 */
+        /* ROWS 6 & 8 & 10*/
 
-        div.four-left {
-            width: 30%;
-            height: auto;
-
-            img.four-left-img {
-                width: 100%;
-                height: auto;
-            }
-        }
-    
-        div.four-right {
-            width: 35%;
-            height: auto;
-
-            text-align: left;
-
-        }
-
-        /* Row 6 */
-
-        div.six-left {
+        div.six-left, div.eight-right, div.ten-left {
             width: 35%;
             height: auto;
 
             text-align: left;
         }
 
-        div.six-right {
+        div.six-right, div.eight-left, div.ten-right {
             width: 50%;
             height: auto;
 
-            img.six-right-img {
+            img {
                 width: 100%;
                 height: auto;
             }
         }
+
+        div.eleven-left {
+            width: 75%;
+        }
+
     }
 
     div.row-three, div.row-four {
         gap: 5%;
     }
 
-    div.row-six {
+    div.row-six, div.row-eight, div.row-ten, div.row-eleven {
         padding-top: 0%;
-        padding-bottom: 0%;
+        padding-bottom: 4%;
     }
 
-    
+    div.credit-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
 }
