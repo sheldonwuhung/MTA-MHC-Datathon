@@ -116,7 +116,7 @@ body {
         width: 100vw;
         z-index: 0;
 
-        * {border: 5px solid black;}
+        /* * {border: 5px solid black;} */
     }
 
     hr.one {
