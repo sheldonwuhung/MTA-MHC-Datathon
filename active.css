@@ -5,6 +5,8 @@
         left: 0;
         right: 0;
 
+        font-size: 1vw;
+
         width: 100%;
         height: auto;
         z-index: 1;
@@ -70,6 +72,8 @@
         top: 0;
         left: 0;
         right: 0;
+
+        font-size: 1vw;
 
         width: 100%;
         height: auto;
