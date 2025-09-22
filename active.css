@@ -89,14 +89,14 @@ nav {
     right: 0;
 
     width: 100%;
-    height: auto;
+    height: 7.75%;
     z-index: 1;
 
     background-color: rgb(132, 163, 187);
 
     div.project-text {
-        padding: 15px;
-        padding-left: 50px;
+        padding: .9%;
+        padding-left: 13.25%;
 
         font-size: 3.2vmin;
         font-family: "Open Sans", sans-serif;
