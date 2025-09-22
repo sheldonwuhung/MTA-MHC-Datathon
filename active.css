@@ -93,16 +93,43 @@ nav {
     z-index: 1;
 
     background-color: rgb(132, 163, 187);
-    border-bottom: 2px solid rgb(161, 197, 224);
+    border-bottom: 1px solid rgb(161, 197, 224);
+
+    /* * {border: 5px solid black;}  */
+
+    display: flex;
 
     div.project-text {
+        width: 30%;
         padding: .9%;
+
         padding-left: 2%;
 
         font-size: 3.2vmin;
         font-family: "Open Sans", sans-serif;
 
         color: rgb(255, 255, 255);
+    }
+
+    div.nav-buttons {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+
+        /* padding-right: 2%; */
+
+        button.nav-button {
+            width: 15%;
+            height: 100%;
+
+            background-color: rgb(132, 163, 187);
+            border: none;
+            border-left: 1px solid rgb(161, 197, 224);
+        }
+
+        button.nav-button:hover {
+            background-color: rgb(100, 126, 145);
+        }
     }
 
 }
@@ -175,6 +202,9 @@ body {
             img {
                 width: 100%;
                 height: auto;
+                border: none;
+                border-right: 2px solid rgb(168, 220, 255);
+                border-bottom: 2px solid rgb(168, 220, 255);
             }
         }
 
