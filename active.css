@@ -151,6 +151,10 @@ body {
         flex-direction: row;
         align-items: flex-start;
 
+        img {
+            border: 2px solid rgb(168, 220, 255)
+        }
+
         /* ROW 1 */
 
         div.one-left {
