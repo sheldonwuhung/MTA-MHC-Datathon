@@ -22,7 +22,7 @@
 
             padding-left: 2%;
 
-            font-size: 2.5em;
+            font-size: 1.75em;
             font-family: "Open Sans", sans-serif;
 
             color: rgb(255, 255, 255);
@@ -48,7 +48,7 @@
                 border: none;
                 border-left: 1px solid rgb(161, 197, 224);
 
-                font-size: 2em;
+                font-size: 1.5em;
                 font-family: "Open Sans", sans-serif;
                 
                 color: rgb(255, 255, 255);
@@ -88,7 +88,7 @@
 
             padding-left: 2%;
 
-            font-size: 2em;
+            font-size: 1.75em;
             font-family: "Open Sans", sans-serif;
 
             color: rgb(255, 255, 255);
@@ -219,10 +219,10 @@ body {
 
     background-color: rgb(61, 86, 121);
 
+    font-size: 1vw;
+
     section.main-grid {
         width: 100vw;
-
-        font-size: 1vw;
         z-index: 0;
 
         /* * {border: 5px solid black;} */
