@@ -22,7 +22,7 @@ function ChangeWindowLocation (index) {
     let y = location.top + window.scrollY - navHeight*2;
 
     if (index == 0) {y = 0};
-    console.log(y);
+    
     window.scrollTo({ top: y, left: 0, behavior: 'smooth' });
 };
 
