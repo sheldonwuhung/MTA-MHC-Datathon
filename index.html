@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Stuff</title>
+    <title>Lost in Transit | MHC++ Datathon | Sheldon Hung & Gabriel Liang</title>
     <link rel="stylesheet" href="active.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=radio_button_checked,radio_button_unchecked" />
 </head>
@@ -13,14 +13,14 @@
 
     <nav id="nav">
         <div id="project-name" class="project-text">
-            Project Name
+            Lost in Transit
         </div>
         <div class="nav-buttons">
             <button id="nav-button-1" class="nav-button text-1">Introduction</button>
-            <button id="nav-button-2" class="nav-button text-1">Question 1</button>
-            <button id="nav-button-3" class="nav-button text-1">Question 2</button>
-            <button id="nav-button-4" class="nav-button text-1">Question 3</button>
-            <button id="nav-button-5" class="nav-button text-1">Conclusion</button>
+            <button id="nav-button-2" class="nav-button text-1">Part 1</button>
+            <button id="nav-button-3" class="nav-button text-1">Part 2</button>
+            <button id="nav-button-4" class="nav-button text-1">Part 3</button>
+            <!-- <button id="nav-button-5" class="nav-button text-1">Conclusion</button> -->
             <!-- <button class="nav-button text-1"></button> -->
         </div>
     </nav>
@@ -34,11 +34,13 @@
             </div>
 
             <div class="one-right">
-                <div>
-                    <h1>Project Name</h1>
+                <div class="one-right-project">
+                    <h1>Lost in Transit</h1>
 
                     <h4>MTA MHC++ Datathon</h4>
-                    <p class="text-1">Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf</p>
+                    <p class="text-1">
+                        ACE's expansion is both a success and a warning.
+                    </p>
                 </div>
 
                 <div class="circles"></div>                
@@ -62,9 +64,10 @@
             <div class="three-left"> 
                 <h3>What is the ACE System?</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    Automated Camera Enforcement equips MTA buses with cameras that detect and issue violations to vehicles that 
+                    <span class="text-2">drive</span>, <span class="text-2">park</span>, or <span class="text-2">loiter</span>
+                    in bus lanes, <span class="text-2">double park</span> along bus routes, and <span class="text-2">block</span> bus stops.
+                    ACE is intended to speed up buses, keep the streets safer, and to improve accessibility and reliability.
                 </p>
             </div>
 
@@ -81,160 +84,262 @@
             </div>
 
             <div class="four-right">
-                <h3>Purpose</h3>
-                <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                </p>
+                <h3>Growth of ACE</h3>
+                <div class="text-1">
+                    <p><span class="text-2">2023:</span> ACE was active on a small set of routes, issued <span class="text-2">290 thousand</span> violations.</p>
+                    <p><span class="text-2">2024:</span> ACE expanded throughout the boroughs, issued <span class="text-2">1.46 million</span> violations.</p>
+                    <p><span class="text-2">2025:</span> ACE scaled further, issued <span class="text-2">1.67 million</span> violations.</p>
+                    <p>*<span class="asterick-text">2025 information is up to August</span> </p>
+                </div>
             </div>
 
         </div>
 
+        <div class="row-four-graphs">
+            <img src="assests/TotalViolationBusRouteBorough/TotalViolationBusRouteBorough2023.png">
+            <img src="assests/TotalViolationBusRouteBorough/TotalViolationBusRouteBorough2024.png">
+            <img src="assests/TotalViolationBusRouteBorough/TotalViolationBusRouteBorough2025.png">
+        </div>
+
+        <div class="row-four-blurb margin-center">
+            <p class="text-1"> 
+                As the ACE program expands, it is catching more violations than ever—evidence that enforcement is working.
+                However, how accurate is the number of violations being reported? Are there technical issues in enforcement?
+                What are the consequences of misrepresenting violations?
+            </p>
+        </div>
+
         <hr class="two">
 
-        <h2 id="question-1">What violation type is the most prevelant in each borough? </h2>
+        <h2 id="question-1">Discrepancies in the System</h2>
 
         <div class="row-six">
             <div class="six-left margin-center"> 
-                <h3>Finding 1</h3>
+                <!-- <h3>Finding 1</h3> -->
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    From 2023 to 2025, there were sections of violation statuses that changed.
                 </p>
-                <h3>Finding 2</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">Violation Issued:</span> Dropped 11%. This means a smaller number of violations are
+                    being flagged as acutal, enforced violations. A larger amount of violations are being
+                    processed into categories such as "Technical Issue/Other" and "Driver/Vehicle Info Missing"
+                    rather than more concrete and readable categories like "Exempt - Bus/Paratransit" and 
+                    "Exempt - Emergency Vehicle".
                 </p>
-                <h3>Finding 3</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">Technical Issue/Other:</span> Grew from 17,553 to 145,232 violations, meaning there are issues
+                    with the infastructure, which could be camera malfunctions, processing errors, unresolved cases,
+                    misclassifications, and other unknown issues.
                 </p>
+                <p class="text-1">
+                    <span class="text-2">Driver/Vehicle Info Missing:</span> Grew from 20,601 to 143,238 violations, which shows a lot of 
+                    violations would have been successfully processed if there were no issues with the management
+                    of buses and drivers.                    
+                </p>
+                <p class="text-1">
+                    <span class="text-2">Exempt - Other:</span> Grew from 9,814 to 66,990 violations, which is not very specific and
+                    can be used for any purpose, such as covering up inconsistences and unresolved issues.
+                </p>
+
+                <p class="text-1">
+                    In 2025, out of 1,667,658 violations, 145,232+ represented had missing information, having the MTA potentially lose out on
+                    a minimum of <span class="text-2">$4,153,635</span> in uncollected fines as fines start at $50 and can escalate up to a maximum of $250 per violation.
+
+                </p>
+                
+                <h3>Profit Losses</h3>
+
+                <p class="text-1">
+                    Exempt Violations with missing information make up a large portion of the total. This means the MTA
+                    is losing out on potential profit from collection of fines. Per violation, fines start at $50 and can
+                    escalate up to $250.
+                </p>
+                <p class="text-1">
+                
+                
             </div>
 
             <div class="six-right margin-center">
                 <div class="iframe-container">
-                    <h4 class="flex-center">Bus Violation Heatmap</h4>
-                    <iframe src="bus_violation_heatmap2.html"></iframe>
-                    <!-- <img src="assests/images/graph1.png" alt=""> -->
-                    <!-- <img src="assests/images/graph2.png" alt=""> -->
+                    <!-- <h4 class="flex-center">Bus Violation Heatmap</h4> -->
+                    <!-- <iframe src="bus_violation_heatmap2.html"></iframe>
+                    <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=80f9b95a4ce0491091f1477710f6a91d"></iframe> -->
+                    <img src="assests/DistrubutionViolationStatus/DistrubutionViolationStatus2023.png" alt="">
+                    <img src="assests/DistrubutionViolationStatus/DistrubutionViolationStatus2024.png" alt="">
+                    <img src="assests/DistrubutionViolationStatus/DistrubutionViolationStatus2025.png" alt="">
                 </div>
             </div>
         </div>
+
+        <div class="row-six">
+            <div class="six-three margin-center">
+                <p class="text-1">
+                    <span class="text-2">2023:</span> 290,621 violations, <span class="text-2">47,988</span> represented had missing information, having the MTA lose out on
+                    a minimum of <span class="text-2">$877,650</span> in uncollected fines.
+
+                    <span class="text-2">16.5%</span> exempt violations, with <span class="text-2">emergency vehicle</span> and <span class="text-2">bus/paratransit</span> vehicles being the 
+                    top two most repeat offenders.
+                </p>
+
+                <p class="text-1">
+                    <span class="text-2">2024:</span> 1,464,865 violations, <span class="text-2">102,188</span> represented had missing information, having the MTA lose out on
+                    a minimum of <span class="text-2">$3,392,600</span> in uncollected fines.
+
+                    <span class="text-2">25.5%</span> exmept violations, with <span class="text-2">commercial under 20</span> and <span class="text-2">emergency</span> vehicles being the 
+                    top two most repeat offenders
+                </p>
+
+                <p class="text-1">
+                    <span class="text-2">2025:</span> out of 1,667,658 violations, <span class="text-2">145,232+</span> represented had missing information, having the MTA lose out on
+                    a minimum of <span class="text-2">$4,153,635</span> in uncollected fines.
+
+                    <span class="text-2">25.5%</span> of all violations were exempt, with <span class="text-2">commercial under 20</span> and <span class="text-2">emergency</span> vehicles being the 
+                    top two most repeat offenders
+                </p>
+            </div>
+        </div>
         
         <hr class="two">
 
-        <h2 id="question-2">Which borough gets the most violations?</h2>
+        <h2 id="question-2">Reasons for Delays</h2>
 
         <div class="row-eight">
             <div class="eight-left margin-center">
-                <img src="assests/images/graph1.png" alt="">
-                <img src="assests/images/graph2.png" alt="">
+                <img src="assests/TotalViolationBusRouteBorough/TotalViolationBusRouteBorough2025.png" alt="">
+                <img src="assests/Top10StopIDViolationCount/Top10StopIDViolationCount2025-2.png" alt="">
+                <img src="assests/ViolationTypeBusRouteStatus/ViolationTypeBusRouteStatus2025.png" alt="">
             </div>
 
             <div class="eight-right margin-center"> 
-                <h3>Finding 1</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    Violations are not evenly distributed and cluster at multi-route stops that include transfer hubs and overlapping bus
+                    routes. These violations are especially prominent within the Bronx and Manhattan, and are overwhelming concentrated in double parking.
                 </p>
-                <h3>Finding 2</h3>
+
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">Transfer Hubs & Overlapping Routes: </span>The stops which receive the most violations often 
+                    serve multiple bus routes. These locations experience higher traffic density and have longer boarding times. Stops like
+                    Broadway/Isham St contain BX12+, M100, and BX28.    
                 </p>
-                <h3>Finding 3</h3>
+
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">High Density: </span>The Bronx and Manhattan have the highest amount of violations in comparison to 
+                    Brooklyn, Queens, and Staten Island, which have significantly less people. These two boroughs, who are most reliant on
+                    bus service, recieve the most violations.
                 </p>
+
+                <p class="text-1">
+                    <span class="text-2">Double Parking: </span> In 2025, <span class="text-2">43.7%</span> of violations consisted of double 
+                    parking in bus lanes. This directly reflects a major issue as the amount of vehicles is vastly larger than the number of avaliable
+                    parking spots. Businesses may have insufficient loading zones and there is always competition and pressure on where to park.
+                </p>
+    
             </div>
+            
         </div>
+
+
 
         <hr class="two">
 
-        <h2 id="question-3">Do violations change during the start of CUNY or NYCDOE academic seasons? Which vehicle gets the most violation?</h2>
+        <h2 id="question-3">The Path Forward</h2>
 
-        <div class="row-ten">
-            <div class="ten-left margin-center"> 
-                <h3>Finding 1</h3>
+        <div class="row-eleven flex-center">
+            <div class="eleven-left margin-center"> 
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    The MTA is losing out on a lot of money which could be used on the development and maintenance of infastructure,
+                    and improvements to bus lanes, accessibility, and service. There are a number of ways for buses to accurately record violations.
                 </p>
-                <h3>Finding 2</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">Saving Resources: </span>Vehicles that are exempt like ambulances and police cars can be 
+                    ignored to reduce manpower and costs of using the camera.
                 </p>
-                <h3>Finding 3</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">Expanded Categorization of Exempt Vehicles: </span>Instead of moving unclear cases into "other" or "missing"
+                    categories, create subcategories such as "Plate Obstructed" or "Camera Malfunction" to future diagnose issues.
+                </p>
+                <p class="text-1">
+                    <span class="text-2">Improve Capture Ability & Combat Technical Issues: </span> Use AI-assisted plate recognition
+                    and cross references with DMV databases to fill gaps where driver/vehicle information is incomplete.
+                </p>
+                <p class="text-1">
+                    Overall, the MTA ACE program is doing a decent job at catching violations, however this still a portion of the program 
+                    experiencing technical issues which could be an <span class="text-2">additonal $4-10 million dollars</span>, which could be used on the development 
+                    and maintenance of infastructure, and improvements to bus lanes, accessibility, and service. There are a number of ways 
+                    for buses to accurately record violations.
                 </p>
             </div>
 
-            <div class="ten-right margin-center">
+            <!-- <div class="ten-right margin-center">
                 <img src="assests/images/graph1.png" alt="">
                 <img src="assests/images/graph2.png" alt="">
-            </div>
+            </div> -->
         </div>
         
         <hr class="two">
 
-        <h2 id="conclusion">Conclusion</h2>
+         <h2 id="conclusion">Additional Conclusions</h2>
 
         <div class="row-eleven flex-center">
             <div class="eleven-left"> 
-                <h3>Question 1</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">(1) Which MTA bus routes are highly utilized by CUNY students? For routes that are automated camera-enforced, how have bus speeds changed over time?</span>
+                    There are multiple MTA Bus routes that are highly utilized by CUNY students. As a Baruch student, there is the M101 or M102, M, M2, M3, M5, M15 & M32. Of which, the M101 is included in the ACE Program
+                    Over time, speeds have increased, matching MTA claims of an overall 5% faster commute times as a majority of the routes
                 </p>
-                <h3>Question 2</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">(2) Some vehicles stopped in violation are exempt from fines due to business reasons. For vehicles that are exempt, are there repeat offenders? Where are exempt vehicles frequently in violation?</span>
+                    In the case of an exemption there are often repeat offenders that were issued violations upward to 1000+ times, 
+                    Of the repeat offenders it is primarily from emergency vehicles and commercial vehicles. 
                 </p>
-                <h3>Question 3</h3>
                 <p class="text-1">
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
-                    Small blurb of our project qwfvsdveqvsdfqewv efwvwdvbrwsb e2wgvwdfgvwds gewgw sdgwdsf
+                    <span class="text-2">(3) Some automated camera-enforced routes travel within or across Manhattan’s Central Business District. How have violations on these routes changed alongside the implementation of congestion pricing?</span>
+                    Since the implementation of congestion pricing in 2025, we’ve seen an increase in violations which has nearly met the total previously issued violations from 2024, however we’ve also seen an uptick in exempt violations which requires further investigation.
                 </p>
             </div>
-        </div>
-
-
+        </div> 
 
     </section>
 
-    <section>
-        <div class="text-1 credit-text">
-            <h4>Photo Credits</h4>
+    <h4 class="flex-center">Resources & Photo Credit</h4>
+
+    <section class="text-1 credit-text">
+
+        <div class="credit-text-container">
+            <a href="https://data.ny.gov/Transportation/MTA-Bus-Automated-Camera-Enforced-Routes-Beginning/ki2b-sg5y/about_data" target="_blank">MTA ACE Database</a>
+        </div>
+
+        <div class="credit-text-container">
             <a href="https://commons.wikimedia.org/wiki/File:XE60_%E9%93%B0%E9%93%BE%E5%BC%8F%E8%BD%A6%E8%BE%86%EF%BC%886185%EF%BC%89%E8%A1%8C%E9%A9%B6%E4%B8%9C14%E8%A1%97%E7%AC%AC%E4%B8%80%E5%A4%A7%E9%81%93%EF%BC%8C%E8%BF%90%E8%90%A5M14D_SBS%E5%85%AC%E4%BA%A4%EF%BC%8C%E5%BC%80%E5%BE%80%E5%BE%B7%E5%85%B0%E6%BA%AA%E8%A1%97%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E8%A1%97.jpg
         " target="_blank">Photo 1</a>
-                <a href="https://commons.wikimedia.org/wiki/File:NYC_Transit_Joins_NYPD_to_Ticket_Vehicles_Illegally_Parked_in_Bus_Lanes_(53397727558).jpg
-        " target="_blank">Photo 2</a>
-                <a href="https://commons.wikimedia.org/wiki/File:MTA_Prepares_for_Winter_Storm_Across_Service_Area_(53525682954).jpg
-        " target="_blank">Photo 3</a>
+        </div>
+
+        
+        <div class="credit-text-container">
+            <a href="all-graphs.html" target="_blank">Graphs</a>
+        </div>
+
+        <div class="credit-text-container">
+            <a href="https://commons.wikimedia.org/wiki/File:NYC_Transit_Joins_NYPD_to_Ticket_Vehicles_Illegally_Parked_in_Bus_Lanes_(53397727558).jpg
+    " target="_blank">Photo 2</a>
+        </div>
+
+        <div class="credit-text-container">
+            <a href="bus_violation_heatmap2.html" target="_blank">Bus Violatin Heatmap</a>
+        </div>
+
+        <div class="credit-text-container">
+            <a href="https://commons.wikimedia.org/wiki/File:MTA_Prepares_for_Winter_Storm_Across_Service_Area_(53525682954).jpg
+    " target="_blank">Photo 3</a>
+        </div>
+
+        <div class="credit-text-container">
+            <a href="https://www.arcgis.com/apps/mapviewer/index.html?webmap=80f9b95a4ce0491091f1477710f6a91d" target="_blank">Population Density Map</a>
         </div>
     </section>
 
     <script src="funcs.js"></script>
-</body>=
+</body>
 
 </html>
+
