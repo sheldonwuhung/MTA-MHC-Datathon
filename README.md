@@ -1,7 +1,9 @@
-# Project: Lost In Transit | MTA MHC++ Datathon 2025
+# Project: Lost In Transit | Finalist for MTA MHC++ Datathon 2025
 # Team: building_devs (Sheldon Hung & Gabriel Liang)
 
-# [Website & Presentation](https://mhc-datathon.github.io/building_devs/)
+# [Website & Presentation](https://sheldonwuhung.github.io/Lost-In-Transit)
+
+[Official MTA MHC Datathon Repository](https://github.com/MHC-Datathon/building_devs)
 
 **Resources & Credits**
 
